@@ -8,22 +8,17 @@ package jurnal;
 import java.util.Scanner;
 
 public class Jurnal {
-    public static void main(String[]args) {
-        Scanner show = new Scanner(System.in);
-        System.out.print("Masukan Jumlah Deret Fibonacci : ");
-        int n = show.nextInt();
-        long fib[] = new long[n];
-         
-        fib[0] = 0;
-        fib[1] = 1;
-         
-        for(int x = 2; x < n; x++) {
-            fib[x] = fib[x-1] + fib[x-2];
-        }
-         
-        for (int x = 0; x < n; x++) {
-            System.out.print(fib[x] +  " ");
-        }
+     public static void main(String[] args) {
+     
+    int fibonacciDeret =10;
+    int a=0;
+    int b=1;
+    for ( int i=1; i<= fibonacciDeret; i++)
+    {
+        System.out.println("Fibonacci :" +a);
+        a=a+b;
+        b=a-b;
+    }
     }
  
 }
