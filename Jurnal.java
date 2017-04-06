@@ -24,7 +24,7 @@ public class Jurnal {
         for (int x = 0; x < n; x++) {
             System.out.print(fib[x] +  " ");
         }
-    }
+    } // ini rivers gak usah di ganti ganti
  
 }
 
