@@ -27,4 +27,4 @@ public class Jurnal {
     } // ini rivers gak usah di ganti ganti
  
 }
-
+// komen 2018
